@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+		<link rel="stylesheet" href="styles.css">
+		<style>
+		    @media (min-width: 500px) {
+                h1::before {
+                    content: "Welcome to My Web Page!";
+                }
+            }
+
+            @media (max-width: 499px) {
+                h1::before {
+                    content: "Welcome!";
+                }
+            }
+		    @media (min-width: 500px) {
+                body {
+                    background-color: Yellow;
+                }
+            }
+
+            @media (max-width: 499px) {
+                body {
+                    background-color: blue;
+                }
+            }
+            table {
+                border: 2px solid black;
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+
+            th {
+                background-color: lightgray;
+            }
+			 input[type=text] {
+                background-color: red;
+            }
+
+            input[type=number] {
+                background-color: yellow;
+            }
+			p::selection {
+                color: red;
+                background-color: yellow;
+            }
+			 h5 {
+                color: blue;
+                text-align: center;
+            }
+
+            #End {
+                font-size: 28px;
+        </style>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+    </head>
+    <body>
+	    <h1 style="color:red;text-align:center;"></h1>
+	    <h2 style="color:red;text-align:center;">This is Me!</h2>
+        <p style="color:purple;"> Do not let yesterday take up too much of today.- Will Rogers</p>
+        <p style="color:red;">It is not whether you get knocked down, it is whether you get up.- Inspirational Quote by Vince Lombardi</p>
+		<div class="container">
+		     <button type="button" class="btn btn-HOME">HOME | </button>
+      
+		     <button type="button" class="btn btn-Skill"><a href="Skill.html">SKILL | </a></button>
+		     <button type="button" class="btn btn-REFERENCES"><a href="REFERENCE.html">REFERENCES | </a></button>
+		     <button type="button" class="btn btn-PICTURES"><a href="PICTURES.html">PICTURES | </a></button>
+		</div>
+        <ul>
+		Hobies:
+            <li>Reading Books</li>
+            <li>Computer Programming</li>
+            <li>Running</li>
+        </ul>
+        Best Colors:
+        <ol>
+            <li>Yellow</li>
+            <li>Green</li>
+            <li>Blue</li>
+            <li>Red</li>
+        </ol>
+		<img src="Falls.jpg" alt="Falls">
+		<h1>Hobies, Colors and Best Years</h1>
+        <table>
+            <tr>
+                <th>Hobies</th>
+                <th>Colors</th>
+                <th>Best Years</th>
+            </tr>
+            <tr>
+                <td>Reading Books</td>
+                <td>yellow</td>
+                <td>1984</td>
+            </tr>
+            <tr>
+                <td>Computer Programming</td>
+                <td>Green</td>
+                <td>2011</td>
+            </tr>
+            <tr>
+                <td>Running</td>
+                <td>Blue</td>
+                <td>2012</td>
+            </tr>
+        </table>
+		<div>
+            <p>Have worked in the following Industries.</p>
+
+            -----------------------------------
+            <ul>
+                <li>Information Technology</li>
+                <li>Hospitality Industries</li>
+                <li>Wherehousing</li>
+            </ul>
+        </div>
+
+        <p>Have worked in the Following Arears.</p>
+
+        ---------------------------------------
+        <ul>
+            <li>Business Analyst</li>
+            <li>Data Analyst</li>
+            <li>Accountant</li>
+			<li>Manager</li>
+        </ul>
+		
+		Search for my friends and references
+		 <form>
+
+            <input name="name" type="text" placeholder="First Name">
+            <input name="name" type="text" placeholder="Last Name">
+            <input name="name" type="number" placeholder="NIN">
+
+        </form>
+		 <p>
+		 <ul>
+            <li>Pain can change you, but that doesn't mean it has to be a bad change. Take that pain and turn it into wisdom. Dalai Lama</li>
+			<li>When looking for wise words, the best ones often come from our elders. Catherine Pulsifer</li>
+			<li>We tend to think of great thinkers and innovators as soloists, but the truth is that the greatest innovative thinking does not occur in a vacuum. Innovation results from collaboration. John C. Maxwell</li>
+		 </ul> 	
+        </p>
+		<h5>This is the End of My Home Page!</h5>
+        <p id="End">No matter were you are in life, KEEP MOVING.</p>
+    </body>
+</html>
