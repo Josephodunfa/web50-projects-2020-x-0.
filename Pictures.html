@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Webpage</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <style>
+		    .row > div {
+                padding: 20px;
+                background-color: teal;
+                border: 2px solid black;
+            }
+		     @media (min-width: 500px) {
+                body {
+                    background-color: Yellow;
+                }
+            }
+
+            @media (max-width: 499px) {
+                body {
+                    background-color: blue;
+                }
+            }
+		    a::before {
+                content: "\21d2  Click here: ";
+                font-weight: bold;
+            }
+            .grid {
+                background-color: green;
+                display: grid;
+                padding: 20px;
+                grid-column-gap: 20px;
+                grid-row-gap: 10px;
+                grid-template-columns: 200px 200px auto;
+            }
+
+            .grid-item {
+                background-color: white;
+                font-size: 20px;
+                padding: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        PICTURES | 
+		 <a href="Skill.html">SKILL | </a>
+		 <a href="REFERENCE.html">REFERENCES | </a>
+		 <a href="Index.html">HOME | </a>
+		<ul>
+		SKILL:
+            <li>Financial Analysis and Interpretation </li>
+            <li>Microsoft Office Suite	- Excel, Word, Power Point, Visio</li>
+            <li>Health Safety Environment (HSEs)</li>
+        </ul>
+        Language Skill:
+        <ol>
+            <li>English</li>
+            <li>Yoruba</li>
+            <li>Nigerian Sign Language</li>
+            <li>Red</li>
+        </ol>
+		<img src="Joe.jpg" alt="Joe">
+		
+		<div class="grid">
+            <div class="grid-item"><img src="Joe.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="joe2.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="Joe.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="joe2.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="Joe.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="joe2.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="Joe.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="joe2.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="Joe.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="joe2.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="joe2.jpg" alt="Joe"><img src="Joe.jpg" alt="Joe"></div>
+            <div class="grid-item"><img src="joe2.jpg" alt="Joe"></div>
+        </div>
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    This is a section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is another section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is a third section.
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    This is a fourth section.
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
